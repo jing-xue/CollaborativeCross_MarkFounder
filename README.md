@@ -6,12 +6,13 @@ Compute genotypes (any snp present in dbSNP142) for any CC strain based on found
 "Annot_snp142.R" annonates genotypes for a particular CC strain any any snp as long as it's present in dbsnp142.
 
 
-# dbSNP142 vcf fild cleanup:
+# dbSNP142 vcf file cleanup:
 ## dbSNP mouse build142 vcf files (http://www.sanger.ac.uk/science/data/mouse-genomes-project)
 ### Download
 $ wget 'ftp://ftp-mouse.sanger.ac.uk/current_snps/*'
 
 ##directory: /proj/folamilb/projects/Jan16MethylSeq/dbSNP142/snp142
+
 $ gunzip -c mgp.v5.merged.snps_all.dbSNP142.vcf.gz > mgp.v5.merged.snps_all.dbSNP142.vcf
 $ gunzip -c mgp.v5.merged.indels.dbSNP142.normed.vcf.gz > mgp.v5.merged.indels.
 dbSNP142.normed.vcf
