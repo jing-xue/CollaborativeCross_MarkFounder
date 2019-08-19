@@ -3,8 +3,9 @@ Compute genotypes (any snp present in dbSNP142) for any CC strain based on found
 
 "GenerateFounderStrTable.R" converts the numerical probability columns in founder probabiliy tables to a single column. The columns informs any founder origins for this position. Threshold set to 0 so that any non-zero founder can make a contribution.
 
-"Annot_snp142.R" annonates genotypes for a particular CC strain at any snp as long as it's present in dbsnp142.
+"Annot_snp142.R" annonates genotypes at a list of SNPs for a recombinant intercross (RIX) between two CC strains (CC001-CC011 as an example) and also determine if the RIX has reference genotype.
 
+"Annot_snp142_CC001.R" annonates genotypes for a given CC strain (CC001 as an example) at all SNPs present in dbsnp142.
 
 # dbSNP142 vcf file cleanup:
 ## dbSNP mouse build142 vcf files (http://www.sanger.ac.uk/science/data/mouse-genomes-project)
